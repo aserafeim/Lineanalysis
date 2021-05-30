@@ -25,6 +25,7 @@ class lineFFT:
         self.threshold=threshold
         
         
+        
     def open_clean(self):
         df = pd.read_excel (self.filename,[i for i in range(N_sheets)])
         
